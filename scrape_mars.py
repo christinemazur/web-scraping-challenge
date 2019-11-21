@@ -5,6 +5,7 @@
 #pip install splinter
 from bs4 import BeautifulSoup
 from splinter import Browser
+browser = Browser('chrome')
 import requests
 import pandas as pd
 # In[25]:
@@ -193,7 +194,7 @@ for title in titles:
 # In[90]:
 
 
-title.text
+#title.text
 
 
 # In[97]:
